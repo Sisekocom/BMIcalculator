@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/R.0a592d845a0d0b8a0077186380d30616?rik=%2bLYJrbm5RuE%2fBQ&riu=http%3a%2f%2flearn2lose.com%2fwp-content%2fuploads%2f2017%2f12%2fshutterstock_283177196-1200x800.jpg&ehk=GLxabSuciIUtyQSZyUCFb3UeMU6NNsD%2b7obZuyKB4Mk%3d&risl=&pid=ImgRaw&r=0);
+  }
+
+  #calculator {
+    background-color: #d4dda2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  input {
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    background-color: #afad4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #c01813;
+  }
+
+  #result {
+    font-size: 18px;
+    margin-top: 15px;
+  }
